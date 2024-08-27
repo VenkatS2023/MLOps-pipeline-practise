@@ -1,6 +1,6 @@
 {
-    "subscription_id": "<>",
-    "resource_group": "DevOps_AzureML_Demo",
-    "workspace_name": "AzureML_Demo_ws",
-    "location": "southcentralus"
+    "subscription_id": "1e7fa4c1-5548-4b73-a21c-e1cae7abc791",
+    "resource_group": "Venky-Practise",
+    "workspace_name": "ML-Practise",
+    "location": "East US"
 }
