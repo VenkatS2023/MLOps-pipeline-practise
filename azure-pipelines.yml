@@ -26,6 +26,13 @@ steps:
     filePath: 'environment_setup/install_requirements.sh'
     workingDirectory: 'environment_setup'
 
+- script: |
+    python -m pip install --upgrade pip
+    pip install --upgrade azure-cli msal-extensions
+    az upgrade --yes
+  displayName: 'Install and upgrade Azure CLI and dependencies'
+
+
 - script: | 
    az login --service-principal -u $(spidentity) -p $(spsecret) --tenant $(sptenant)
    
